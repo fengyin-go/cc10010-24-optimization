@@ -35,3 +35,15 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+/* 血缘图谱：传播面板、状态徽标与命中/留档行高亮 */
+.lineage-panel { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; }
+.lineage-panel h3 { margin: 0 0 10px; font-size: 14px; }
+.locate-result { background: #f1f5fb; border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; font-size: 13px; }
+.locate-result ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 4px; }
+.badge { display: inline-block; border-radius: 999px; padding: 1px 8px; font-size: 11px; line-height: 1.5; white-space: nowrap; }
+.badge.ok { background: #e7f6ec; color: #177245; }
+.badge.warn { background: #fef3e2; color: #b54708; }
+.badge.muted { background: #eef2f7; color: var(--muted); }
+.data-table tr.row-impacted td { background: #fff7ed; }
+.data-table tr.row-archived td { background: #f8fafc; color: var(--muted); }
+.notice-text { color: #177245; margin-right: 10px; }
